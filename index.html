@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawww</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <h2 class="nav__logo">Pawww</h2>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="https://github.com/zPawww" class="nav__link" target="BLANK">Contact me</a></li>
+            </ul>
+
+            <figure class="nav__menu">
+                <img src="./svg/bx-menu.svg" class="nav__icon">
+            </figure>
+        </nav>
+
+        <section class="hero__main container">
+            <div class="hero__texts">
+                <h1 class="hero__title">Hello!, My name is Pawww</h1>
+                <p class="hero__subtitle">Welcome to my website with CSS Grid</p>
+                <a href="#" class="hero__cta">Join us!</a>
+            </div>
+            <figure class="hero__picture">
+                <img src="./svg/undraw_programming_re_kg9v.svg" class="hero__img">
+            </figure>
+        </section>
+        <div style="height: 150px; overflow: hidden;" class="hero__waves" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C255.92,262.02 364.27,-124.81 500.84,49.84 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+    <audio autoplay id="audio">
+        <source src="./Coldplay - Yellow (Official Video) (SIMP3.APP).mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        let audio = document.getElementById("audio");
+        audio.volume = 0.1;
+        audio.autoplay;
+    </script>
+</body>
+</html>
